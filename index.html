@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Border Radius</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Border Radius</h1>
+
+  <div id="caixa"></div>
+
+  <p>
+    Superior esquerdo horizontal: <input type="number" id="tl" value="20" oninput="atualizar()">
+    Superior direito horizontal: <input type="number" id="tr" value="20" oninput="atualizar()">
+  </p>
+  <p>
+    Inferior direito horizontal: <input type="number" id="br" value="20" oninput="atualizar()">
+    Inferior esquerdo horizontal: <input type="number" id="bl" value="20" oninput="atualizar()">
+  </p>
+  <p>
+    Superior esquerdo vertical: <input type="number" id="tlv" value="20" oninput="atualizar()">
+    Superior direito vertical: <input type="number" id="trv" value="20" oninput="atualizar()">
+  </p>
+  <p>
+    Inferior esquerdo vertical: <input type="number" id="blv" value="20" oninput="atualizar()">
+    Inferior direito vertical: <input type="number" id="brv" value="20" oninput="atualizar()">
+  </p>
+
+  <p id="resultado"></p>
+  <button onclick="copiar()">Copiar CSS</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
